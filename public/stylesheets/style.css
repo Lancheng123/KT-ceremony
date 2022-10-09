@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(to right, #dbfde5 0%, #f5efe8 100%);
+}
+.navbar bg-white fixed-top{
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.5);
+}
+.navbar-brand{
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-size: 72px;
+  text-transform: uppercase;
+	background: linear-gradient(to right, #353535 0%, #7e7e7e 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#name{
+  font-size: 50px;
+  background: linear-gradient(to right, #087539 0%, #33b19c 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.time-countdown{
+  
+  background:url(/images/countdown.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+ }
+.transbox{
+    height: 300px;
+    background-color: #000000;
+    opacity: 0.75;
+  }
+#countdown{
+  font-weight: bold;
+  font-size: 50px;
+  background: linear-gradient(to right, #087539 0%, #ffffff 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.transbox h1 {
+  font-weight: bold;
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
