@@ -2,7 +2,7 @@
     "version":2,
     "builds":[
         {
-            "src":"./bin/www",
+            "src":"npm run dev",
             "use":"@vercel/node"
         }
     ],
