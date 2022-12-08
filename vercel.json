@@ -11,6 +11,5 @@
             "src":"./bin/www",
             "dest":"index.js"  
         }
-
     ]
 }
