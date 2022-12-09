@@ -18,25 +18,30 @@
 
 <body>
     <!--Navigation bar section-->
-    <section class="nav-bar">
-        <div id="nav-placeholder">
-        </div>
-        <script>
-            $(function () {
-                $("#nav-placeholder").load("html/navbar.html");
-            });
-        </script>
-    </section>
+   
     <!--end of Navigation bar-->
+    
     <!--main page section-->
-    <section class="main-page pt-3 ">
-        <div class="container">
+    <section class="main-page">
+        <section class="nav-bar">
+            <div id="nav-placeholder">
+            </div>
+            <script>
+                $(function () {
+                    $("#nav-placeholder").load("html/navbar.html");
+                });
+            </script>
+        </section>
+        <div class="container pt-3">
             <div class="row">
                 <div class="col-sm-6 align-self-center">
                     <p>For The Wedding Ceremony of</p>
                     <h1 id="name"> Kanpitcha & Thanongsak</h1><br>
                     <h4>07.09 A.M. | SENAPRASIT SCHOOL PHANAKON SI AYUTTHAYA</h4><br>
                     <h3>SUN 05 March 2023</h3><br>
+                    <audio controls>
+                        <source src="/sound/mixkit-beautiful-dream.mp3" type="audio/mpeg">
+                      </audio>
                     <h6>Theme</h6>
                     <span style="background-color:#f2f2f2" class="dot"></span>
                     <span style="background-color:#d3f1b2;" class="dot"></span>
@@ -45,20 +50,15 @@
                     <!-- <button type="button" class="btn btn-secondary btn-lg">Visit More..<img src="/images/more_than.png" alt="next" width="32" height="28"></button> -->
                 </div>
                 <div class="col-sm-6 mt-5">
-                    <img src="/images/undraw.svg" alt="main" class="responsive">
+                    <!-- <img src="/images/undraw.svg" alt="main" class="responsive"> -->
                 </div>
-
             </div>
         </div>
-    </section>
-    <!--end of main page section-->
-    <!--main card-selection-->
-    <section class="card-selection">
-        <div class="container text-start">
+        <br><br>
+        <div class="container text-start pt-5 ">
+            <br><br><br><br><br><br>
             <div class="row">
-                <div class="p-5 text-center">
-                    <h3>เลือกหัวข้อที่ท่านสนใจ</h3>
-                </div>
+              
                 <div class="col-sm-4">
                     <div class="shadow p-3 mb-5 bg-body rounded " style="max-width: 540px;">
                         <div class="row g-0">
@@ -70,7 +70,7 @@
                                     <h5 class="card-title">ประวัติ</h5>
                                     <p class="card-text">ประวัติและเส้นทางรักระหว่าง 8 ปี
                                         ที่รู้จักกันมาระหว่างคู่บ่าว-สาวจนมาถึงวันที่เข้าพิธีแต่งงาน</p>
-                                    <p class="card-text"><small class="text-muted">คลิกอ่านประวัติ</small></p>
+                                    <p class="card-text"><small class="text-muted"><a href="/history">คลิกอ่านประวัติ</a></small></p>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
                                     <p class="card-text">
                                         หากต้องการผู้ช่วยบอกคำถามเบื้องต้นเกี่ยวกับงานกรุณาเพิ่มเพื่อนเพื่อรับข้อมูล
                                     </p>
-                                    <p class="card-text"><small class="text-muted">คลิกเพิ่มผู้ช่วย</small></p>
+                                    <p class="card-text"><small class="text-muted"><a href="https://page.line.me/919ccmeg" target="_blank">คลิกเพิ่มผู้ช่วย</a></small></p>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                                     <h5 class="card-title">ลงทะเบียนงาน</h5>
                                     <p class="card-text">ท่านมีความประสงค์งานแต่งหรือไม่
                                         เพื่อทางเจ้าภาพสำรองที่นั่งให้แขกผู้มีเกียรติทุกท่าน</p>
-                                    <p class="card-text"><small class="text-muted">คลิกลงทะเบียน</small></p>
+                                    <p class="card-text"><small class="text-muted"><a href="https://forms.gle/x5dC39Zmgn8FYHFu9" target="_blank">คลิกลงทะเบียน</a></small></p>
                                 </div>
                             </div>
                         </div>
@@ -113,6 +113,13 @@
                 </div>
             </div>
         </div>
+    </section>
+    <!--end of main page section-->
+   
+   
+    <!--main card-selection-->
+    <section class="card-selection">
+      
     </section>
     <!--end of card-selection-->
     <section class="time-countdown">
@@ -126,6 +133,7 @@
         </div>
         </div>
     </section>
+  
     <section >
        <div style="height:250px"></div>
     </section>
