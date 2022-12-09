@@ -24,6 +24,7 @@ body{
 	-webkit-text-fill-color: transparent;
 }
 #name{
+  font-family: Brush Script MT;
   font-size: 50px;
   background: linear-gradient(to right, #087539 0%, #33b19c 100%); 
   -webkit-background-clip: text;
@@ -34,6 +35,25 @@ body{
   background: linear-gradient(to right, #087539 0%, #33b19c 100%); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}#image-sur{
+  background-image: url(/images/help.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  margin: 0
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
