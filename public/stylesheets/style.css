@@ -36,12 +36,9 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }#image-sur{
- 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-  margin: 0
 }
 .video-container {
   position: relative;
