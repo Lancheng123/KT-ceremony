@@ -19,12 +19,11 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
+    <script src="javascripts/data_wish.js"></script>
 
 </head>
 
 <body>
-
     <!--main page section-->
     <section class="main-page">
         <!--Navigation bar section-->
@@ -213,7 +212,17 @@
                         <a class="btn btn-secondary btn-lg px-4 me-md-2"
                             href="https://docs.google.com/forms/d/e/1FAIpQLSfoMWUlSaGKG57pTiIQKcUCYsP0VO9aYStj3bXJUjGnLQnQwQ/viewform?usp=sf_link"
                             role="button">อวยพรคู่บ่าวสาว</a>
-
+                    </div>
+                    <div class="container">
+                        <div class="d-flex justify-content-center">
+                            <div class="spinner-border" 
+                                 role="status" id="loading">
+                                <span class="sr-only">Loading...</span>
+                            </div>
+                        </div>
+                        <h1>คำอวยพร</h1>
+                        <!-- table for showing data -->
+                        <table id="wish"></table>
                     </div>
                 </div>
             </div>
