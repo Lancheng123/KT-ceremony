@@ -7,6 +7,7 @@ const cors = require('cors');
 
 const indexRouter = require('./routes/index');
 const historyRouter = require('./routes/history');
+const wishRouter = require('./routes/wish');
 const router = express.Router();
 const app = express();
 
@@ -26,6 +27,7 @@ app.set('views','public')
 
 app.use('/', indexRouter);
 app.use('/history', historyRouter);
+app.use('/wish', wishRouter);
 
 
 app.use(express.json());

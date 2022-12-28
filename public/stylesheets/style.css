@@ -205,17 +205,30 @@ h5{
   background: #0099ff;
 }
 /*end text animate */
+
+.image-striky{
+  background:url(/images/surprise_bw.JPG);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  ;
+}
+.transstriky{
+  height: 980px;
+  background-color: #ffffff;
+  opacity: 0.75;
+}
 .time-countdown{
-  
   background:url(/images/IMG_7918.JPG);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  
  }
 .transbox{
     height: 300px;
     background-color: #000000;
-    opacity: 0.75;
+    opacity: 0.9;
   }
 #countdown{
   font-weight: bold;
