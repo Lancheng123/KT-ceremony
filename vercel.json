@@ -1,0 +1,15 @@
+{
+    "version":1,
+    "builds":[
+        {
+            "src":"add.js",
+            "use":"@now/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"add.js"
+        }
+    ]
+}
